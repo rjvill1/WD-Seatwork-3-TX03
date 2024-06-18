@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Basic';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+section.design-one {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: column;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1.5rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.design-two {
+    display: flex;
+    background: white;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    &  .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+        color: rgb(0, 81, 194);
+        gap: 1rem;
+
+        & i {
+            color: rgb(0, 81, 194);
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: rgb(0, 81, 194);
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.design-three {
+    display: flex;
+    background: rgb(12,27,35);
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: rgb(250,68,84);
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1.5rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: rgb(250,68,84);
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.design-four {
+    display: flex;
+    background: black;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    & .logo {
+        display: flex;
+        color: white;
+        align-self: center;
+
+        & img {
+            display: flex;
+            border-radius: 100%;
+            height: 50px;
+            position: relative;
+        }
+
+        & h3 {
+            position: relative;
+            align-self: center;
+            margin-left: 1rem;
+        }
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 4.5rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.design-five {
+    display: flex;
+    background: white;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & i {
+            color: black;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 3.5rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: black;
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.ani-design-one {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: column;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+
+        &:hover {
+            transform: scale(1.3);
+            transition: 0.3s;
+        }
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1.5rem;
+
+            &:hover {
+                font-size: 2.2rem;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.ani-design-two {
+    display: flex;
+    background: white;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    &  .content {
+        display: flex;
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+        color: rgb(0, 81, 194);
+        padding: 10px 20px;
+
+        & i {
+            color: rgb(0, 81, 194);
+            font-weight: 600;
+            font-size: 1.1rem;
+            position: relative;
+            padding: 1.3rem;
+
+            &:after {
+                content: '';
+                height: 3px;
+                width: 0;
+                background: rgb(0, 81, 194);
+                position: absolute;
+                left: 0;
+                bottom: -0.5px;
+                transition: 0.5s ease;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: rgb(0, 81, 194);
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.ani-design-three {
+    display: flex;
+    background: rgb(12,27,35);
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: rgb(250,68,84);
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1.5rem;
+
+            &:active {
+                color: black;
+            }
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: rgb(250,68,84);
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.ani-design-four {
+    display: flex;
+    background: black;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &:hover .one-logo:not(:hover),
+    &:hover .content:not(:hover) {
+    transform: scale(1);
+    }
+    &:hover .content:not(:hover) {
+        opacity: 0.7;
+      }
+
+
+
+    & .logo {
+        display: flex;
+        align-self: center;
+
+        & img {
+            display: flex;
+            border-radius: 100%;
+            height: 50px;
+            position: relative;
+        }
+
+        & h3 {
+            position: relative;
+            align-self: center;
+            margin-left: 1rem;
+            color: white;
+        }
+
+        :hover {
+            filter:drop-shadow(5px 5px 5px rgb(141, 141, 141));;
+        }
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin: 4.5rem;
+
+            &:hover {
+                color: purple;
+            }
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        & i {
+            margin: .5rem;
+        }
+    }
+}
+
+section.ani-design-five {
+    display: flex;
+    background: white;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin: 1rem;
+
+        & i {
+            color: black;
+            margin: 3.5rem;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+
+            &:active {
+                color: green;
+            }
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: black;
+        
+        & i {
+            margin: .5rem;
+        }
+    }
+}

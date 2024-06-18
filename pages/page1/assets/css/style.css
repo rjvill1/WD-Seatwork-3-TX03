@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Basic';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #660096;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(/pages/page1/assets/img/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    color: white;
+}
+
+header.design-one {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: wheat;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: black;
+        }
+    }
+}
+
+header.design-two {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+    flex-direction: row-reverse;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: rgb(0, 81, 194);
+        }
+    }
+}
+
+header.design-three {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: rgb(12,27,35);
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+        align-self: center;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-right: 30rem;
+        margin-left: 2rem;
+        position: relative;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: rgb(250,68,84);
+        }
+    }
+
+    & > button {
+        align-items: center;
+        width: 150px;
+        padding: 8px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid rgb(250,68,84);
+        background: transparent;
+        color: rgb(250,68,84);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+header.design-four {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0vw;
+    background: black;
+    align-items: center;
+    align-self: flex-start;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: white;
+        }
+    }
+}
+
+header.design-five {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    & > i {
+        color: black;
+        font-size: 2rem;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: black;
+        }
+    }
+
+    & > .icon {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        color: black;
+
+        & > a {
+            color: black;
+            font-size: 20px;
+        }
+    }
+}
+
+header.ani-design-one {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: wheat;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+
+        &:hover {
+            transform: scale(1.3);
+            transition: 0.3s;
+        }
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: black;
+
+            &:hover {
+                font-size: 2.2rem;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+header.ani-design-two {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+    flex-direction: row-reverse;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 10px 20px;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: rgb(0, 81, 194);
+            position: relative;
+            text-decoration: none;
+
+            &:after {
+                content: '';
+                height: 3px;
+                width: 0;
+                background: rgb(0, 81, 194);
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                transition: 0.5s;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+header.ani-design-three {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: rgb(12,27,35);
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+        align-self: center;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-right: 30rem;
+        margin-left: 2rem;
+        position: relative;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: rgb(250,68,84);
+
+            &:active {
+                color: white;
+            }
+        }
+    }
+
+    & > button {
+        align-items: center;
+        width: 150px;
+        padding: 8px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid rgb(250,68,84);
+        background: transparent;
+        color: rgb(250,68,84);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        &:active {
+            background: rgb(250,68,84);
+            color: rgb(12,27,35);
+        }
+    }
+}
+
+header.ani-design-four {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0vw;
+    background: black;
+    align-items: center;
+    align-self: flex-start;
+
+    &:hover .one-logo:not(:hover),
+    &:hover .navigation-content:not(:hover) {
+    transform: scale(1);
+  }
+
+  &:hover .navigation-content:not(:hover) {
+    opacity: 0.7;
+  }
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        &:hover {
+            filter:drop-shadow(5px 5px 5px rgb(141, 141, 141));;
+        }
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: white;
+
+            &:hover {
+                color: purple;
+            }
+        }
+    }
+}
+
+header.ani-design-five {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+
+    & > img.one-logo {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    & > .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: black;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+
+            &:active {
+                color: green;
+            }
+        }
+    }
+
+    & > .icon {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        color: black;
+
+        & > a {
+            color: black;
+            font-size: 20px;
+
+            &:hover {
+                transform: scale(1.5)
+            }
+
+            &:active {
+                color: green;
+            }
+        }
+    }
+}
