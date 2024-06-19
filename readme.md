@@ -4,9 +4,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/rjvill1/WD-Seatwork-3">
+  <a href="https://github.com/rjvill1/WD-Seatwork-3-TX03">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/background.jpg" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/background.jpg" alt="sunshine" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=rjvill1/WD-Seatwork-3)
+![](https://visit-counter.vercel.app/counter.png?page=rjvill1/WD-Seatwork-3-TX03)
 
 ---
 
